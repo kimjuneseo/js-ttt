@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="tic tac toe"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>tic tac toe</title>
+    <style>
+      #root{width: 1200px; height: auto; margin: 0 auto; display: grid; justify-content: center;}
+      .title{font-size: 3rem; text-align: center;}
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <h2 class="title">turn: <span class="turn"></span> </h2>
+    <div id="root" >  
+      <h2 class="title">tic tac toe!</h2>
+      <canvas id="canvas" ></canvas>
+    </div>
+    <script src="./app/index.js"></script>
+  </body>
+</html>
